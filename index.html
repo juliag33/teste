@@ -1,0 +1,180 @@
+<html>
+
+<head>
+    <title>Art Gallery</title>
+    <link rel="sortcut icon" href="icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <script src="JavaS.js"></script>
+</head>
+
+<body>
+    <h1> <span>ART</span> GALLERY</h1>
+    <style>
+        body {
+            background-image: url('site2.png');
+            background-repeat: no-repeat;
+            margin-left: 150px;
+        }
+    </style>
+    
+    <div class="mane">
+        <img src="manequim.png">
+    </div>
+    <div class="cacheado">
+        <img src="cacheado.png">
+    </div>
+    <div class="boo">
+        <img src="boo.jpg">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr class="linha">
+    <section>
+        <ul>
+            <li class="lista active" data-filter="All">All</li>
+            <li class="lista" data-filter="Digital">Digital</li>
+            <li class="lista" data-filter="Inktober">Inktober</li>
+            <li class="lista" data-filter="Sketch">Sketch</li>
+        </ul>
+        <div class="drawn">
+
+            <div class="dtiys">
+                <div class="dtiys1">
+                    <img src="dtiys1.png">
+                </div>
+                <div class="dtiys2">
+                    <img src="dtiys2.png">
+                </div>
+            </div>
+
+            <div class="gael">
+                <div class="gael1">
+                    <img src="gael.jpg">
+                </div>
+                <br>
+                <div id="gael2">
+                    <img src="gael1.jpg">
+                </div>
+            </div>
+
+            <div class="sg">
+                <br>
+                <div class="sac">
+                    <img src="sacada.png">
+                </div>
+                <div class="grama">
+                    <img src="grama.jpg">
+                </div>
+            </div>
+
+            <div class="prim">
+                <div class="pri">
+                    <img src="primeiro.png">
+                </div>
+                <div class="evo">
+                    <img src="evolução.jpg">
+                </div>
+                <p>Primeiro desenho digital / Refeito depois de um ano</p>
+            </div>
+
+            <br>
+            <div class="bah">
+                <div class="sla">
+                    <img src="sla.png">
+                </div>
+                <div class="uai">
+                    <video width="330" height="405">
+                        <source src="uai.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <div class="te">
+                <br>
+                <div class="test">
+                    <img src="teste.png">
+                </div>
+                <div class="evren1">
+                    <img src="evren design3.png">
+                </div>
+            </div>
+
+            <div class="day">
+                <div class="aslan">
+                    <img src="aslan.jpg">
+                </div>
+                <div class="day1">
+                    <img src="day1.jpg">
+                </div>
+            </div>
+
+            <div class="pisce">
+                <div class="pisces">
+                    <img src="pisces1.jpg">
+                    <img src="pisces2.jpg">
+                </div>
+            </div>
+
+            <div class="sketches">
+                <div class="evren">
+                    <img src="evren.jpg">
+                </div>
+                <div class="sketch">
+                    <img src="sketch1.jpeg">
+                </div>
+                <div class="sketch1">
+                    <img src="sketch2.jpeg">
+                </div>
+            </div>
+
+    </section>
+
+    <!--apenas um teste(spoiler: não deu certo)-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.lista').click(function () {
+                const value = $(this).attr('data-filter');
+                if (value == 'All') {
+                    $('.itemBox').show('1000');
+                }
+                else {
+                    $('itemBox').not('.' + value).hide('1000');
+                    $('itemBox').filter('.' + value).show('1000');
+                }
+            })
+        })
+    </script>
+
+
+    <div class="perfil">
+        <div class="julia">
+            <img src="ju.png">
+        </div>
+
+        <div class="png1">
+            <img src="png.png">
+        </div>
+        <h2>ALGODÃO</h2>
+        <p>Olá!, meu nome é Júlia Tolentino, mas algumas pessoas me chamam de algodão. Moro em Minas Gerais, sou
+            estudante e pretendo ser uma designer e programadora.</p>
+    </div>
+<br>
+<br>
+    <div class="rodape">
+        <p>
+            Todas as artes incluídas nesse site são de minha autoria:<br>
+            <a href="https://www.instagram.com/algodao.jpg/">instagram de desenhos</a>
+
+
+        </p>
+    </div>
+    </div>
+</body>
+
+</html>

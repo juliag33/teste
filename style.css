@@ -1,0 +1,303 @@
+body{
+    background-color: rgb(230, 230, 230);
+    
+ }
+ 
+ h1{ 
+     color:rgb(233, 227, 231);
+     border-style: solid;
+     font-family: 'Anton', sans-serif;
+     border-color:rgb(65, 57, 57);
+     background-color: rgb(65, 57, 57);
+     float: left;
+     
+ }
+ 
+ 
+ span{
+    color: rgb(205, 155, 148);
+    font-family: 'Anton', sans-serif;
+}
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+ *
+ {
+  margin: 0;
+  padding: 1px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+ }
+ section{
+     padding: 20px;
+     width: 1280px;
+     margin:40px auto ;
+ }
+ section ul{
+     display: flex;
+     margin-bottom: 10px;
+ }
+ section ul li{
+     list-style: none;
+     background: rgb(205, 172, 161);
+     padding: 8px 20px;
+     margin: 5px;
+     letter-spacing: 1px;
+     cursor: pointer;
+ }
+ section ul li:active{
+     background: #03a9f4;
+     color: #fff;
+ }
+ .drawn .itemBox{
+     position: relative;
+     width: 600px;
+     height: 600px;
+     margin: 5px;
+    }
+ .drawn .itemBox img{
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ }   
+ .style{
+    
+    width: 700px;
+    height: 850px;
+ }
+ 
+ .dtiys1 img{
+     
+     width: 450px;
+     height: 510px;
+     align-items: center;
+ }
+ .dtiys2 img{
+     width: 450px;
+     height: 510px ;
+ }
+ .julia img{
+     width: 390px;
+     height: 395px;
+     transition-property: color, background-image;
+ }
+ 
+ p {
+     text-align: center;
+ }
+ .day{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+ }
+ 
+.dtiys{
+    display: flex;
+}
+.cacheado img{
+    width: 290px;
+    height: 346px;
+    margin-top: 428px;
+    margin-left: -45px;
+    
+    transition-property: height, weight;
+    transition-duration: 1s;
+}
+.cacheado img:active{
+    width: 300px;
+    height: 370px;
+}
+.linha{
+    border: 0px;
+    border-top: 2px solid rgb(35, 31, 32);
+    margin-left: -121px;
+    margin-right: 20px;
+}
+hr {
+    display: block;
+    margin: 0 auto;
+    
+}
+.day1 img{
+    width: 350px;
+    height: 440px;
+}
+.pisces img{
+    width: 350px;
+    height: 405px;
+}
+.gael{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.gael1 img{
+    width: 350px;
+    height: 435px;
+}
+#gael2 img{
+    width: 350px;
+    height: 435px;
+}
+.sac img{
+    width: 450px;
+    height: 460px;
+}
+.grama img{
+    width: 450px;
+    height: 470px;
+}
+.sg{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.mane img{
+    width: 298px;
+    height: 345px;
+    margin-top: 174px;
+    margin-left: -120px;
+    float: left;
+    transition-property: weight, height, background-image;
+    transition-duration: 2s;
+} 
+.mane:hover{
+    background-image: url('manequim1.jpg') no-repeat;
+    
+}
+.mane img:active{
+  width:350px ;
+  height: 398px; ;
+}
+.mane1 img{
+    width: 450px;
+    height: 505px;
+}
+.pri img{
+    width: 450px;
+    height: 495px;
+}
+.evo img{
+    width: 450px;
+    height: 450px;
+}
+.evo p{
+    border-style: solid;
+    border-color: rgb(205, 172, 161);
+    background-color: rgb(205, 172, 161);
+}
+.prim{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.prim p{
+    margin-left: 470;
+    margin-top: -33px;
+}
+.evren img{
+    width: 250px;
+    height: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.sketch img{
+    width: 250px;
+    height: 340px;
+}
+.sketch1 img{
+    width: 250px;
+    height: 340px;
+}
+.sketches{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.evren1 img{
+    width: 350px;
+    height: 405px;
+}
+.te{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.pisce{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.uai video{
+    width: 430px;
+    height: 505px;
+}
+.sla img{
+    width: 430px;
+    height: 505px;
+}
+.bah{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.test img{
+    width: 350px;
+    height: 405px;
+}
+
+.boo img{
+    width: 180px;
+    height: 223px;
+    margin-top: -106px;
+    margin-left: 33px;
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+.boo img:hover{
+    background-color: rosybrown;
+}
+
+.aslan img{
+    width: 350px;
+    height: 435px;
+
+}
+.png1 img{
+  width: 30px;
+  height: 30px;
+  
+}
+.png1 img:hover{
+    width: 40px;
+    height: 40px;
+   animation: infinite;
+}
+.perfil{
+    position: relative;
+    text-align: center;
+    hyphens: auto;
+    align-items: left;
+}
+
+
+.rodape{
+    color: rgb(35, 31, 32);
+    background-color: rgb(205, 155, 148);
+    text-align: center;
+    margin-left: -100;
+    margin-right: 0;
+    padding: 5px;
+    font-size: 19px;
+
+    transition-property: background-color;
+    transition-duration: 1s; 
+}
+.rodape:hover{
+    background-color: rgb(205, 137, 135);
+}
